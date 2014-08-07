@@ -1,0 +1,35 @@
+{{!< default}}
+
+
+        <div class="container clearfix">
+          <main role="main" class="content">
+              {{#foreach posts}}  
+              <article class="{{post_class}} post">
+                <h2><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
+                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
+                
+                <p>{{excerpt characters="600"}}&hellip;</p>
+                
+                <a href="{{url}}" title="{{title}}">Read more &raquo;</a>
+              </article>
+              {{/foreach}}
+
+              {{pagination}}
+             
+          </main>
+          
+
+
+          <aside class="author">
+            
+            <img class="profile-image" src="https://lh6.googleusercontent.com/-km9oqdRsa3Q/TdTuXbdW_xI/AAAAAAAACiU/XEfYXtAB-RQ/w263-h262-no/DSC_0212.JPG" alt="" />
+            <p class="name">by <strong>Javier Manzano</strong></p>
+            <p class="address">Madrid, Spain</p>
+            <p class="link"><a href="mailto:javier.manzano22@gmail.com" title="Javier Manzano - Node.js & Android developer">Email me!</a></p>
+
+            <ul class="social">
+              <li><a class="icon-twitter" href="http://twitter.com/jmanzanomorilla" title="Follow me on Twitter"></a></li>
+            </ul>
+
+          </aside>
+        </div>
