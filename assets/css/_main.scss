@@ -150,7 +150,7 @@ hr{
 	left: 50%;
 	margin: -74px 0 0 -89px;
 
-	@include image-2x("../img/rriegger-logo@2x.png", 179px, 148px);
+	//@include image-2x("../img/rriegger-logo@2x.png", 179px, 148px);
 }
 
 
@@ -426,7 +426,7 @@ body.post-template > .site-header{
 
 
 body.post-template .site-header h2 .logo{
-	background: url(../img/rriegger-logo.png) no-repeat 0 0;
+	//background: url(../img/rriegger-logo.png) no-repeat 0 0;
 	width: 90px;
 	height: 74px;
 	margin: -45px 0 0 -37px;
@@ -469,7 +469,7 @@ body.post-template .site-header h2 .logo{
 	}
 
 	.site-header h2 .logo{
-		background: url(../img/rriegger-logo.png) no-repeat 0 0;
+		//background: url(../img/rriegger-logo.png) no-repeat 0 0;
 		width: 90px;
 		height: 74px;
 		margin: -45px 0 0 -37px;
